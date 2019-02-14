@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-semail",
+	"url": "https://github.com/maikejonne/safeemail",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		}
+	]
+}

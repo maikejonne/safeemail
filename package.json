@@ -1,0 +1,54 @@
+{
+  "name": "nodebb-plugin-semail",
+  "version": "0.1.0",
+  "description": "An implementation based on secure mail protocol",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maikejonne/safeemail"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "semail",
+    "shell"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "author": {
+    "name": "maikejonne",
+    "email": "maikejonne@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maikejonne/safeemail/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.3.2",
+    "@commitlint/config-angular": "^7.3.1",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0"
+  },
+  "dependencies": {
+    "secp256k1": "2.0.4",
+    "tiny-secp256k1": "^1.0.1",
+    "markdown": "^0.5.0"
+  }
+}
