@@ -1,0 +1,1 @@
+define({  "name": "nodebb-plugin-semail",  "version": "0.1.0",  "description": "An implementation based on secure mail protocol",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2019-02-14T07:48:44.351Z",    "url": "http://apidocjs.com",    "version": "0.17.7"  }});
