@@ -5,7 +5,7 @@ This is the server implementation of "Safe Data Transfer Protocol", as a NodeBB 
 SMTP(Simple Mail Transfer Protocol)
 Which is a set of rules for transferring mail from source address to destination address, which controls the way the mail is transferred. It is a solution for information exchange for users under different service providers. But its data can be maliciously falsified or forged, user information can be attacked, and there is a lot of spam.
 
-SDTP(Safe Date Transfer Protocol)provides secure, privacy-protected, and efficient data exchange for users under different service providers.
+SDTP(Safe Data Transfer Protocol)provides secure, privacy-protected, and efficient data exchange for users under different service providers.
 
 1. The SDTP user authentication system is based on a zero-knowledge proof digital signature, so
 * SDTP does not generate spam messages.
