@@ -1,6 +1,6 @@
 # An implementation based on secure mail protocol
 ## Introduction
-This is the server implementation of "Secure Data Communication Protocol", as a NodeBB plugin.
+This is the server implementation of "Safe Data Transfer Protocol", as a NodeBB plugin.
 
 SMTP(Simple Mail Transfer Protocol)
 Which is a set of rules for transferring mail from source address to destination address, which controls the way the mail is transferred. It is a solution for information exchange for users under different service providers. But its data can be maliciously falsified or forged, user information can be attacked, and there is a lot of spam.
