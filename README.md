@@ -36,8 +36,12 @@ click Active
 ## API  
 [API Description][3]
 
+## Document  
+[Document][5]
+
 
   [1]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/unactive.png
   [2]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/active.png
   [3]: https://maikejonne.github.io/safeemail/
   [4]: https://maikejonne.github.io/safeemail-android/
+  [5]: https://github.com/maikejonne/safeemail/blob/master/docs/README.md
