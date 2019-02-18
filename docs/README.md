@@ -1,4 +1,4 @@
-# SafeEmail -- A safe and reliable email communication system without any spam
+# SafeEmail -- A safe and reliable email communication system without any spam  
 $$Avanna, Psycho Zhang, Simon Yan, Jonne Mao$$  
 
 $$Version: 0.1.0 $$  
