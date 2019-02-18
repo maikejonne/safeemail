@@ -71,6 +71,9 @@ User Alice registers a mail communication service at the service provider Gogo.
 In order to prevent spam, the addresses of the senders who will deliver mails to Alice's inbox must be authorized by Alice, otherwise the mails will be filtered and discarded.
 
 In other words, only the address authorized by Alice's signature has the right to submit mail information to Alice.
+
+A user will generate two pairs of keys, one pair is major, used for service provider authentication. The other pair is minor, which is used to authorize other people to leave a message.
+
  ![][1]  
 
 ### 3.2 Authorizing Sender Address  
