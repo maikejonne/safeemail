@@ -14,7 +14,7 @@ We are not opposed to the fact that the true behavioral trajectory is recorded, 
 Maybe the probability of big data error is only one in 10 million, maybe the probability of data being stolen is only one in 10 million, and the probability that the database containing your personal information is maliciously broke is only one in 10 million, but once it happens, it might cause significant losses to you.
 
 ## I. Introduction:  
-The behavioral trajectory of each of us on the Internet has been preserved and recorded by countless websites, applications, and systems, unconsciously. And every piece of data may be tampered with or forged by any third party;
+The behavioral trajectory of each of us on the Internet has been preserved and recorded by countless websites, applications, and systems, unconsciously. And every piece of data may be tampered with or forged by any third party.
 
 What's more, by putting together these various behavioral trajectories, someone can perform accurate analysis, your behavior, your preferences, your taste, height and weight, your phone number, home address, and car model, even where your children's schools are... and so on, everything will be exposed. When the data is being sold, you have no secret in the eyes of the data buyers.
 
