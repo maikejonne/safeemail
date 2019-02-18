@@ -1,9 +1,9 @@
 # SafeEmail -- A safe and reliable email communication system without any spam  
-$$Avanna, Psycho Zhang, Simon Yan, Jonne Mao$$  
+                                Avanna, Psycho Zhang, Simon Yan, Jonne Mao
 
-$$Version: 0.1.0 $$  
+                                            Version: 0.1.0
 
-$$February 12,2019$$  
+                                           February 12,2019
 
 ## Abstract:  
 Using multi-group asymmetric public and private keys, this paper proposes a encryption e-mail communication system, which makes e-mail communication more secure, lowers the service provider's network and storage consumption, and completely eliminates any spam.
