@@ -94,14 +94,14 @@ The public key of the Bob's another private key is: x_bob_x_address_2.
 ### 3.3 Sending mail
 So how does Bob, who uses the Yaho service, send an email to Alice using the Gogo service?
 
-3.3.1 Upload Mail Content
+### 3.3.1 Upload Mail Content  
 Bob will package the mail content and Alice's public key address x_alice_x_address_2 and the randomly generated extraction code, for example: 123456, and send it to the service provider Yaho. And tell them that my e-mail should be sent to the public key address x_alice_x_address_2, if someone can sign the information of the extraction code 123456, then you can let him take the mail.
 
 It should be noted that Yaho does not know who x_alice_x_address_2 is. Anyone who wants to view this email have to verify the signature. i.e. Verify("123456", "x_alice_x_address_2", signature)
 If it matches, they could access the message.
 ![][2]  
 
-3.3.2 Leave A Message
+### 3.3.2 Leave A Message  
 Bob uses the authorized account signed by Alice to log in to the service provider Gogo, and sends the code 123456 to Alice.
 
 It should be noted that Bob logs into the Gogo server and uses the address that Alice has authorized to sign x_bob_x_address_2, so the Gogo server does not know the real identity of Bob.
@@ -112,11 +112,11 @@ Bob submitted the mail content on Yaho's server and sent a message to Alice on t
 ![][3]  
 
 ### 3.4 Receiving mail  
-3.4.1 Check The Message
+### 3.4.1 Check The Message  
 Alice logs in to his Gogo mailbox, checks the message, and gets the extraction code left by Bob.
 ![][4]  
 
-3.4.2 Read Mail Content
+### 3.4.2 Read Mail Content  
 Alice receives the Bob message extraction code, and uses the private key of x_alice_x_address_2 to sign the extraction code. The signature and the address of the pickup are verified by the service provider Yaho and can be retrieved.
 ![][5]  
 
