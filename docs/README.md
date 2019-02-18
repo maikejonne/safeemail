@@ -1,5 +1,9 @@
 # SafeEmail -- A safe and reliable email communication system without any spam
+$$ Avanna, Psycho Zhang, Simon Yan, Jonne Mao $$
 
+$$ Version: 0.1.0  $$
+
+$$ February 12,2019 $$
 
 ## Abstract:  
 Using multi-group asymmetric public and private keys, this paper proposes a encryption e-mail communication system, which makes e-mail communication more secure, lowers the service provider's network and storage consumption, and completely eliminates any spam.
@@ -142,9 +146,15 @@ In the process of Alice's pickup, the service provider Gogo provided Alice with 
 Neither Gogo nor Yaho have the users' private keys. Information must be signed and authenticated from the beginning to the end, so neither Gogo nor Yaho, or a malicious attacker, can tamper with or falsify.
 At the same time, because the service provider does not know the identity information of the recipient, it cannot even selectively delay or deny the service.
 
+### Document
+[Zero Knowledge Proofs][6]
+[Elliptic Curve Digital Signature Algorithm][7]
+
 
   [1]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/flowchartimg/safeemail-1.png
   [2]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/flowchartimg/safeemail-2.png
   [3]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/flowchartimg/safeemail-3.png
   [4]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/flowchartimg/safeemail-4.png
   [5]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/flowchartimg/safeemail-5.png
+  [6]: https://www.cs.princeton.edu/courses/archive/fall07/cos433/lec15.pdf
+  [7]: https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
