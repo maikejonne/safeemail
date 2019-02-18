@@ -1,4 +1,4 @@
-# An implementation based on secure mail protocol
+# An implementation based on secure data  transfer protocol
 ## Introduction
 This is the server implementation of "Safe Data Transfer Protocol", as a NodeBB plugin.
 
