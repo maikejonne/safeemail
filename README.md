@@ -1,4 +1,4 @@
-# An implementation based on secure data  transfer protocol
+# An implementation based on safe data  transfer protocol
 ## Introduction
 This is the server implementation of "Safe Data Transfer Protocol", as a NodeBB plugin.
 
@@ -31,6 +31,7 @@ click Active
 ![Active][2]  
 
 ## Android Demo  
+![][6]  
 [Android Demo][4]  
 
 ## API  
@@ -43,5 +44,6 @@ click Active
   [1]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/unactive.png
   [2]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/active.png
   [3]: https://maikejonne.github.io/safeemail/
-  [4]: https://maikejonne.github.io/safeemail-android/
+  [4]: https://github.com/maikejonne/safeemail-android
   [5]: https://github.com/maikejonne/safeemail/blob/master/docs/README.md
+  [6]: https://raw.githubusercontent.com/maikejonne/safeemail/master/docs/flowchartimg/safeemail-show-1.png
