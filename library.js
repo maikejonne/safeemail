@@ -1,14 +1,15 @@
 'use strict';
+//var express = require('express');//It's not necessary
 var semail = require('./lib/semail');
-var uploads = require('./lib/uploads');
-
+var uploads = require('./lib/uploads_changit');
 const plugin = {};
 
 plugin.init = function (params, callback) {
 	const app = params.app;
-
 	app.use("/", uploads);
-	
+
+
+		
 	var ModulesSockets = require.main.require('./src/socket.io/modules');
 	var SockerIO = require.main.require('./src/socket.io');
 	var io = SockerIO.server;
